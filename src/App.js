@@ -555,7 +555,7 @@ function App() {
                 src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg"
                 alt="Buy me a coffee"
               />
-              <span className="coffeeButtonText">Buy me a coffee</span>
+              <span className="coffeeButtonText">Wanna Buy Me A Coffee ❤️</span>
             </a>
           </Col>
         </Row>
