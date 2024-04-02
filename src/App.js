@@ -9,6 +9,7 @@ import {
   ToggleButton,
   ToggleButtonGroup,
 } from "react-bootstrap";
+import "./App.css";
 
 function App() {
   const [darkMode, setDarkMode] = useState(() => {
@@ -159,7 +160,7 @@ function App() {
   const handleRemainingDuration = (duration) => {
     console.log(duration);
     var hours = Math.floor(duration / 60);
-    var minutes = duration%60;
+    var minutes = duration % 60;
     var data = {
       hours: String(formatHours(hours)).padStart(2, "0"),
       minutes: String(formatMinutes(minutes)).padStart(2, "0"),
@@ -539,6 +540,23 @@ function App() {
                 {Number(targetDuration.minutes).toFixed(0)} minutes
               </p>
             )}
+          </Col>
+        </Row>
+        <Row className="justify-content-between align-items-center mb-4">
+          <Col className="text-center">
+            <a
+              className="buyButton"
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.buymeacoffee.com/theshubhagrwl"
+            >
+              <img
+                className="coffeeImage"
+                src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg"
+                alt="Buy me a coffee"
+              />
+              <span className="coffeeButtonText">Buy me a coffee</span>
+            </a>
           </Col>
         </Row>
       </div>
