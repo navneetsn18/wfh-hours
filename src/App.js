@@ -548,7 +548,7 @@ function App() {
               className="buyButton"
               target="_blank"
               rel="noreferrer"
-              href="https://www.buymeacoffee.com/theshubhagrwl"
+              href="https://www.buymeacoffee.com/navneetsn18"
             >
               <img
                 className="coffeeImage"
